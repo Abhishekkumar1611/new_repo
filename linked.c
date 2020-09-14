@@ -46,4 +46,12 @@ void display()
 	}
 }
 
+void insert_front(int ele)
+{
+	node *new = (node *)malloc(sizeof(node));
+	new->data = ele;
+	new->link = first;
+	first = new;
+}
+
 

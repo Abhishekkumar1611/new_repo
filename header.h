@@ -3,4 +3,5 @@
 
 void create(int ele);
 void display(void);
+void insert_front(int ele);
 
